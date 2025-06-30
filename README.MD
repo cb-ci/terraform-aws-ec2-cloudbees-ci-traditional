@@ -41,3 +41,9 @@ aws resourcegroupstaggingapi get-resources \
   --tag-filters Key=cb-environment,Values=<YOUR_ENVIRONMENT> \
   --region  <YOUR_REGION>
 ```
+
+# Connect
+
+```
+ssh -i "<YOUR_LOCAL_PEM>.pem" ec2-user@ec2-<YOUR_INSTANCE>.compute-1.amazonaws.com
+```
