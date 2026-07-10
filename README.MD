@@ -1,7 +1,11 @@
 # Terraform Module for Creating Cloudbees CI Operation Center and Client Controller in AWS EC2
+
 # Overview
+
 This Terraform module is designed to deploy Cloudbees CI Operation Center and Client Controller on AWS EC2 instances. It provides a flexible and customizable setup for running Cloudbees CI in a cloud environment.
+
 # Features
+
 - Deploys Cloudbees CI Operation Center on AWS EC2 instances.
 - Deploys Cloudbees CI Client Controller on AWS EC2 Auto Scaling Group.
 - Automatically generate ec2 key pair for accessing the EC2 instances.
@@ -11,6 +15,7 @@ This Terraform module is designed to deploy Cloudbees CI Operation Center and Cl
 - Automatically configure ALB for Operation Center and Client Controller.
 
 # Requirements
+
 - AWS account with necessary permissions to create EC2 instances, security groups, and VPCs.
 - Predefined hosted zone in Route53 for DNS configuration.
 - Terraform installed on your local machine or CI/CD environment.
@@ -19,6 +24,7 @@ This Terraform module is designed to deploy Cloudbees CI Operation Center and Cl
 - AWS provider version 3.0 or higher.
 
 # Usage
+
 - Copy .auto.tfvars.example to .auto.tfvars and fill in the required variables.
 - Create hosted zone in Route53 for DNS configuration. and update the .auto.tfvars file
 - Copy wildcard license file (`license.key` and `license.cert`) to the `secrets` directory.
@@ -28,6 +34,7 @@ This Terraform module is designed to deploy Cloudbees CI Operation Center and Cl
 - Run `terraform destroy` to remove the resources created by the module.
 
 # Verify
+
 List resources that have been created (see also default tags in `.auto.tfvars`)
 
 ```
@@ -176,7 +183,7 @@ graph TB
 
 # TODOS
 
-[] Add Agent VM (SSH) 
-[] Connect Agent VM to Controller (Permanent SSH Agent)
-[] Add test Jobs/scripts and scenarios
-[] CasC Items review  
+- [ ] Add Agent VM (SSH)
+- [ ] Connect Agent VM to Controller (Permanent SSH Agent)
+- [ ] Add test Jobs/scripts and scenarios
+- [ ] CasC Items review
