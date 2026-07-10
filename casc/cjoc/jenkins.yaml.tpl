@@ -51,7 +51,7 @@ unclassified:
             scmSource:
               git:
                 id: "acf88621-05a0-4d50-9166-d7767868dc43"
-                remote: "https://github.com/holywen-cd/terraform-aws-ec2-cloudbees-ci-traditional"
+                remote: "https://github.com/cb-ci/terraform-aws-ec2-cloudbees-ci-traditional.git"
                 traits:
                 - "gitBranchDiscovery"
     checkOutTimeout: 600
