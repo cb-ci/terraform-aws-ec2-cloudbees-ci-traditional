@@ -47,3 +47,10 @@ aws resourcegroupstaggingapi get-resources \
 ```
 ssh -i "<YOUR_LOCAL_PEM>.pem" ec2-user@ec2-<YOUR_INSTANCE>.compute-1.amazonaws.com
 ```
+
+# TODOS
+
+[] Add Agent VM (SSH) 
+[] Connect Agent VM to Controller (Permanent SSH Agent)
+[] Add test Jobs/scripts and scenarios
+[] CasC Items review  
