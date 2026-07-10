@@ -3,6 +3,10 @@
 # Overview
 
 This Terraform module is designed to deploy Cloudbees CI Operation Center and Client Controller on AWS EC2 instances. It provides a flexible and customizable setup for running Cloudbees CI in a cloud environment.
+See also:
+
+- <https://docs.cloudbees.com/docs/cloudbees-ci/latest/ha/ha-fundamentals>
+- <https://docs.cloudbees.com/docs/cloudbees-ci/latest/ha/specific-ha-installation-traditional>
 
 # Features
 
